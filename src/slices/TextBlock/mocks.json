@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Reprehenderit nisi amet amet ad mollit aute minim deserunt ea anim fugiat consectetur veniam sit. Aliquip voluptate in labore dolor amet deserunt irure ipsum do fugiat dolor sint."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
