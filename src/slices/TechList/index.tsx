@@ -25,6 +25,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
+      // create as many GSAP animations and/or ScrollTriggers here as you want...
       const tl = gsap.timeline({
         scrollTrigger: {
           pin: true, // pin the trigger element while active
@@ -65,11 +66,11 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
     >
       <Bounded as="div">
         <Heading size="xl" className="mb-8" as="h2">
-          {slice.primary.heading}
+          {slice.primary.title}
         </Heading>
       </Bounded>
 
-      {slice.primary.repeat.map(({ tech_color, tech_name }, index) => (
+      {slice.items.map(({ tech_color, tech_name }, index) => (
         <div
           key={index}
           className="tech-row mb-8 flex items-center justify-center gap-4 text-slate-700"
