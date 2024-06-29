@@ -30,7 +30,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
           pin: true, // pin the trigger element while active
           start: "top bottom",
           end: "bottom top",
-          scrub: 2,
+          scrub: 4,
         },
       });
 
@@ -49,6 +49,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
               ? gsap.utils.random(-600, -400)
               : gsap.utils.random(600, 400);
           },
+          ease: "power1.inOut",
         },
       );
     }, component);
