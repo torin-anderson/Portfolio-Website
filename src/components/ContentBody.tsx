@@ -23,7 +23,7 @@ export default function ContentBody({
             </span>
           ))}
         </div>
-        <p className="mt-8 border-b border-slate-600 text-xl font-medium text-violet-300">
+        <p className="mt-8 border-b border-violet-600 text-xl font-medium text-violet-300">
           {page.data.date}
         </p>
         <div className="prose prose-lg prose-invert mt-12 w-full max-w-none md:mt-20">
