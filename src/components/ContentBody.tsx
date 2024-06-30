@@ -11,7 +11,7 @@ import Heading from "@/components/Heading";
 export default function ContentBody({
   page,
 }: {
-  page: Content.BlogPostDocument | Content.ProjectDocument;
+  page: Content.ProsePostDocument | Content.ProjectDocument;
 }) {
 
   return (
