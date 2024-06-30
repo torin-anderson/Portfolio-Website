@@ -7,7 +7,6 @@ import { components } from "@/slices";
 import Bounded from "@/components/Bounded";
 import Heading from "@/components/Heading";
 
-
 export default function ContentBody({
   page,
 }: {
