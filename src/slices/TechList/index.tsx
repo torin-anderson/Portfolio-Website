@@ -39,17 +39,17 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
         {
           x: (index) => {
             return index % 2 === 0
-              ? gsap.utils.random(600, 400)
-              : gsap.utils.random(-600, -400);
+              ? gsap.utils.random(500, 300)
+              : gsap.utils.random(-500, -300);
           },
         },
         {
           x: (index) => {
             return index % 2 === 0
-              ? gsap.utils.random(-600, -400)
-              : gsap.utils.random(600, 400);
+              ? gsap.utils.random(-500, -300)
+              : gsap.utils.random(500, 300);
           },
-          ease: "power3.inOut",
+          ease: "power1.inOut",
         },
       );
     }, component);
